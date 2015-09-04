@@ -2,8 +2,8 @@
 	<head>
 		<title>Mi primera WEB =D</title>
 		<link href="css/style.css" rel="stylesheet" type="text/plain" />
+		<script type="text/javascript" src="js/main.js"></script>
 	</head>
-	body div 
 	<body> 
 		<div>
 			<header>
@@ -17,15 +17,18 @@
 				</div>
 			</header>
 			<article>
-				<h1>Mi primera web</h1>
+				<h1 id="titulo">Mi primera web</h1>
 				<p>Esta pagina la hemos programado con HTML5 CSS3 JQUERY AJAX gracias  a nuestro nuevo conocimiento en programación web.<br>Hoy aprendimos lo que significa "Hello World"</p>
 				<div class="ContImgDesc">
 					<div>
-						<img src="img/Imagen1.jpg" />
+						<img id="imagenLoca" src="img/Imagen1.jpg" />
 					</div>
 					<div>
 						<p id="p_black">Unos lindos y hermosos gatitos en un campo verde dandose cariño el uno al otro.<br>Emm.. Se ven tiernitos
 </p>
+	<input type="text" id="texto3"/>
+	<input type="button" onclick="escribe('texto3')" value="Escribe"/>
+	<input type="button" onclick="imagenLoco('imagenLoca')" value="Get Loco"/>
 					</div>
 				</div>
 			</article>
