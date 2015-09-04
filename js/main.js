@@ -32,3 +32,19 @@ function imagenLoco(imagen)
 
 //alert(mensaje);
 //console.log(mensaje);
+
+$(document).ready(function(){
+	//var contenido = $('#titulo').text();
+    //console.log(contenido);
+	//$('#titulo').text('Mi primera web modificada 123');
+	//$('#titulo').append(' 123');
+	$('#textoAlt').hide();
+	
+	$( "#Logo" ).mouseover(function() {
+		$('#textoAlt').show();
+	});
+	
+	$( "#Logo" ).mouseout(function() {
+    	$('#textoAlt').hide();
+	});
+});
